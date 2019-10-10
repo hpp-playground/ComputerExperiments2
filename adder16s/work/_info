@@ -1,0 +1,44 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/mdhome/home1/kv8648231/CSE2/adder16s
+vadder16s
+!i10b 1
+!s100 Uc8DfzCE;7iHQB8;E23lB3
+I`z3U:CMQU?lOc5F]`K=NF1
+Vko15g`eYH]ghVYRc]InOo3
+Z1 d/mdhome/home1/kv8648231/CSE2/adder16s
+Z2 w1570692754
+Fadder16s.v
+Z3 8test_adder16s.v
+Z4 Ftest_adder16s.v
+L0 6
+Z5 OV;L;10.1d;51
+r1
+!s85 0
+31
+Z6 !s108 1570693441.685192
+Z7 !s107 adder16s.v|test_adder16s.v|
+Z8 !s90 -reportprogress|300|test_adder16s.v|
+!s101 -O0
+o-O0
+vtest
+!i10b 1
+!s100 ?2[2nP3jS27<2TVU6];N80
+IEU>jbKJSCMQ`LFoh]C5@c2
+Vk<3<[f=78GX=_HO53D;7>3
+R1
+R2
+R3
+R4
+L0 10
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!s101 -O0
+o-O0
