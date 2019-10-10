@@ -1,11 +1,11 @@
 /*                                 *
  * test_adder16.v                  *
- * 16 ¥Ó¥Ã¥È²Ã»»²óÏ©¤Î¥Æ¥¹¥È¥Ù¥ó¥Á *
+ * 16 ï¿½Ó¥Ã¥È²Ã»ï¿½ï¿½ï¿½Ï©ï¿½Î¥Æ¥ï¿½ï¿½È¥Ù¥ï¿½ï¿½ *
  *                                 */
 
-`timescale 1ns / 1ns	// ¥·¥ß¥å¥ì¡¼¥·¥ç¥ó¤ÎÃ±°Ì»þ´Ö / ÀºÅÙ
+`timescale 1ns / 1ns	// ï¿½ï¿½ï¿½ß¥ï¿½ì¡¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã±ï¿½Ì»ï¿½ï¿½ï¿½ / ï¿½ï¿½ï¿½ï¿½
 						// 1 ns + 1/1000000000 sec
-`include "adder16.v"	//adder16.v ¤Î¼è¤ê¹þ¤ß
+`include "adder16.v"	//adder16.v ï¿½Î¼ï¿½ï¿½ï¿½ï¿½ï¿½
 
 module test;
 	reg [15:0] x, y;
@@ -16,11 +16,11 @@ module test;
 	adder16 adder16a(x, y, cin, sum, cout);
 
 	always begin
-		#10 x = x + 100;
+		#10 x = x + 1000;
 	end
 
 	always begin
-		#5 y = y + 300;
+		#5 y = y + 3000;
 	end
 
 	initial begin

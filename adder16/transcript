@@ -1,0 +1,20 @@
+# vsim test_adde16.v 
+# ** Error: (vsim-19) Failed to access library 'test_adde16' at "test_adde16".
+# No such file or directory. (errno = ENOENT)
+# Error loading design
+vlog test_adder16.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module adder16
+# -- Compiling module test
+# 
+# Top level modules:
+# 	test
+vsim test
+# vsim test 
+# Loading work.test
+# Loading work.adder16
+view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+add wave *
+run 15ns
+run 300ns
