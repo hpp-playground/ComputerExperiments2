@@ -1,0 +1,55 @@
+# vsim test-mux21.v 
+# ** Error: (vsim-19) Failed to access library 'test-mux21' at "test-mux21".
+# No such file or directory. (errno = ENOENT)
+# Error loading design
+ls
+# mux21.v
+# test_mux21.v
+# transcript
+# vsim.wlf
+# work
+vlog test\mux21.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# ** Error: (vlog-7) Failed to open design unit file "testmux21.v" in read mode.
+# No such file or directory. (errno = ENOENT)
+# /pub1/jikken/eda3/altera/13.0sp1/modelsim_ase/linux/vlog failed.
+vlog test_mux21.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module mux21
+# -- Compiling module test_mux21
+# 
+# Top level modules:
+# 	test_mux21
+vsim test_mux21
+# vsim test_mux21 
+# Loading work.test_mux21
+# Loading work.mux21
+view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+add wave *
+run 800ns
+# ** Note: $finish    : test_mux21.v(36)
+#    Time: 140 ns  Iteration: 0  Instance: /test_mux21
+# 1
+# Break in Module test_mux21 at test_mux21.v line 36
+vsim test_mux21
+# vsim test_mux21 
+# Loading work.test_mux21
+# Loading work.mux21
+view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+add wave *
+run 70ns
+run 80ns
+# ** Note: $finish    : test_mux21.v(36)
+#    Time: 140 ns  Iteration: 0  Instance: /test_mux21
+# 1
+# Break in Module test_mux21 at test_mux21.v line 36
+vsim test_mux21
+# vsim test_mux21 
+# Loading work.test_mux21
+# Loading work.mux21
+view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+add wave *
+run 80ns
