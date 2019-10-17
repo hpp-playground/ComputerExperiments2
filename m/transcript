@@ -1,0 +1,56 @@
+# OpenFile test_m.v 
+vlib work
+vlog test_m.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module m
+# ** Error: m.v(18): (vlog-2730) Undefined variable: 'st'.
+# ** Error: m.v(46): near "<=": syntax error, unexpected <=, expecting '('
+# -- Compiling module test
+# ** Error: test_m.v(11): near "always": syntax error, unexpected always, expecting ';' or ','
+# /pub1/jikken/eda3/altera/13.0sp1/modelsim_ase/linux/vlog failed.
+vlog test_m.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module m
+# ** Error: m.v(46): near "<=": syntax error, unexpected <=, expecting '('
+# -- Compiling module test
+# ** Error: test_m.v(11): near "always": syntax error, unexpected always, expecting ';' or ','
+# /pub1/jikken/eda3/altera/13.0sp1/modelsim_ase/linux/vlog failed.
+vlog test_m.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module m
+# ** Error: m.v(17): (vlog-2110) Illegal reference to net "y".
+# -- Compiling module test
+# ** Error: test_m.v(11): near "always": syntax error, unexpected always, expecting ';' or ','
+# /pub1/jikken/eda3/altera/13.0sp1/modelsim_ase/linux/vlog failed.
+vlog test_m.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module m
+# -- Compiling module test
+# ** Error: test_m.v(11): near "always": syntax error, unexpected always, expecting ';' or ','
+# /pub1/jikken/eda3/altera/13.0sp1/modelsim_ase/linux/vlog failed.
+vlog test_m.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module m
+# -- Compiling module test
+# 
+# Top level modules:
+# 	test
+vsim test
+# vsim test 
+# Loading work.test
+# Loading work.m
+vlog test_m.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module m
+# -- Compiling module test
+# 
+# Top level modules:
+# 	test
+vsim test
+# vsim test 
+# Loading work.test
+# Loading work.m
+view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+add wave *
+run 1000ns
