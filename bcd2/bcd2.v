@@ -14,7 +14,7 @@ module bcd2 (clk, reset, x, bcd2_out);
   wire bcd1b_x;
   wire [3:0] bcd1b_out;
 
-  assign bcd1a_clk = clk
+  assign bcd1a_clk = clk;
   assign bcd1b_clk = clk;
 
   assign bcd1a_reset = reset;
@@ -27,6 +27,6 @@ module bcd2 (clk, reset, x, bcd2_out);
 
   assign bcd1b_x = x & bcd1a_out[0] & ~bcd1a_out[1] & ~bcd1a_out[2] & bcd1a_out[3];
 
-  assign bcd2_out = {bcd1b_out, bcd1a_out};
+  assign bcd2_out = {bcd1b_out*10 + bcd1a_out};
 
 endmodule // bcd2

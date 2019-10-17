@@ -1,1 +1,127 @@
 # OpenFile test_bcd2.v 
+vlib work
+vlog test_bcd2.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module bcd1
+# -- Compiling module bcd2
+# ** Error: bcd2.v(18): near "assign": syntax error, unexpected assign, expecting ';' or ','
+# -- Compiling module test
+# ** Error: test_bcd2.v(12): near "always": syntax error, unexpected always, expecting ';' or ','
+# /pub1/jikken/eda3/altera/13.0sp1/modelsim_ase/linux/vlog failed.
+vlog test_bcd2.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module bcd1
+# -- Compiling module bcd2
+# ** Error: bcd2.v(18): near "assign": syntax error, unexpected assign, expecting ';' or ','
+# -- Compiling module test
+# /pub1/jikken/eda3/altera/13.0sp1/modelsim_ase/linux/vlog failed.
+vlog test_bcd2.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module bcd1
+# -- Compiling module bcd2
+# -- Compiling module test
+# 
+# Top level modules:
+# 	test
+vsim test
+# vsim test 
+# Loading work.test
+# Loading work.bcd2
+# Loading work.bcd1
+veiw wave
+# invalid command name "veiw"
+view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+add wave *
+run 100ns
+
+run 2000ns
+# ** Note: $finish    : test_bcd2.v(30)
+#    Time: 2040 ns  Iteration: 0  Instance: /test
+# 1
+# Break in Module test at test_bcd2.v line 30
+view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+run 2000s
+# Invalid time value: 2000s
+run 2000ns
+vlog test_bcd2.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module bcd1
+# -- Compiling module bcd2
+# -- Compiling module test
+# 
+# Top level modules:
+# 	test
+vsim test
+# vsim test 
+# Loading work.test
+# Loading work.bcd2
+# Loading work.bcd1
+view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+add wave *
+run 2000ns
+vlog test\bcd2.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# ** Error: (vlog-7) Failed to open design unit file "testcd2.v" in read mode.
+# No such file or directory. (errno = ENOENT)
+# /pub1/jikken/eda3/altera/13.0sp1/modelsim_ase/linux/vlog failed.
+vlog test_bcd2.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module bcd1
+# -- Compiling module bcd2
+# -- Compiling module test
+# 
+# Top level modules:
+# 	test
+vsim test
+# vsim test 
+# Loading work.test
+# Loading work.bcd2
+# Loading work.bcd1
+view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+add wave *
+run 2000ns
+vlog test_bcd2.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module bcd1
+# -- Compiling module bcd2
+# -- Compiling module test
+# 
+# Top level modules:
+# 	test
+vsim test
+# vsim test 
+# Loading work.test
+# Loading work.bcd2
+# Loading work.bcd1
+view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+add wave *
+run2000ns
+# invalid command name "run2000ns"
+run 2000ns
+vlog test_bcd2.x
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# ** Error: (vlog-7) Failed to open design unit file "test_bcd2.x" in read mode.
+# No such file or directory. (errno = ENOENT)
+# /pub1/jikken/eda3/altera/13.0sp1/modelsim_ase/linux/vlog failed.
+vlog test_bcd2.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module bcd1
+# -- Compiling module bcd2
+# -- Compiling module test
+# 
+# Top level modules:
+# 	test
+vsim test
+# vsim test 
+# Loading work.test
+# Loading work.bcd2
+# Loading work.bcd1
+view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+add wave *
+run 2000ns
