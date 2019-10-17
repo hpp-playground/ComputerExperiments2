@@ -1,0 +1,31 @@
+# OpenFile test_bcd1.v 
+vlog test_bcd1.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module bcd1
+# -- Compiling module test
+# 
+# Top level modules:
+# 	test
+vsim test
+# vsim test 
+# Loading work.test
+# Loading work.bcd1
+veiw wave
+# invalid command name "veiw"
+view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+add wave *
+run 100ns
+run 1000ns
+# ** Note: $finish    : test_bcd1.v(24)
+#    Time: 1040 ns  Iteration: 0  Instance: /test
+# 1
+# Break in Module test at test_bcd1.v line 24
+view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+add wave *
+run 1000ns
+view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+add wave *
+run 1000ns

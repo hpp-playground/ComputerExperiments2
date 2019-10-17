@@ -1,0 +1,44 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/mdhome/home1/kv8648231/CSE2/bcd1
+vbcd1
+!i10b 1
+Z1 !s100 R`l4QXDHPo]fb_E;3TUg83
+Z2 Im?A?JdnOmIzElI;8VMfCa3
+Z3 VF>LDE_55UzDmn^D:2a:oa3
+Z4 d/mdhome/home1/kv8648231/CSE2/bcd1
+Z5 w1571287333
+Z6 Fbcd1.v
+Z7 8test_bcd1.v
+Z8 Ftest_bcd1.v
+L0 1
+Z9 OV;L;10.1d;51
+r1
+!s85 0
+31
+Z10 !s108 1571287459.219258
+Z11 !s107 bcd1.v|test_bcd1.v|
+Z12 !s90 -reportprogress|300|test_bcd1.v|
+!s101 -O0
+o-O0
+vtest
+!i10b 1
+Z13 !s100 ijAIV=DTWjKRY<P_cb86K2
+Z14 I?@2;9eFBW8?VOmma:R[_k1
+Z15 Vk<3<[f=78GX=_HO53D;7>3
+R4
+Z16 w1571286968
+R7
+R8
+L0 5
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+o-O0

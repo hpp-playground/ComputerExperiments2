@@ -11,13 +11,13 @@ module bcd1 (clk, reset, x, bcd1_out);
       count_reg <= 0;
 
     end else begin
-      if ( x == 1'1 ) begin  
-        if ( x < 9 ) begin  
+      if ( x == 1'b1 ) begin  
+        if ( count_reg < 9 ) begin  
           
-          x = x + 1;
+          count_reg <= count_reg + 1;
         end else begin
 
-          x = 0;
+          count_reg <= 0;
         end  // END: if ( ) begin  // ????????????????? 0 ?????? or ?????????????
       end  // END: if ( ) begin  // x ?? 1'b1 ?¦³???????????
     end  // END: if (reset == 1'b0) begin

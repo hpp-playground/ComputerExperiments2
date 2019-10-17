@@ -7,7 +7,7 @@ module test ;
 
   wire [3:0] bcd1_out;
 
-  ................
+  bcd1 bcd1a(clk, reset, x, bcd1_out);
  
   always begin
     #5      clk = ~clk;
